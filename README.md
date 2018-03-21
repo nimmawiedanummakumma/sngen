@@ -1,5 +1,5 @@
 # sngen
-SNeuer Seriennummer-Generator für KDG
+Neuer Seriennummer-Generator für KDG
 
 Beinahe 10 Jahre nachdem ich mit meinem ersten Generator viel Zuspruch fand, habe ich mich wieder mit dem Thema 
 befasst, denn mein Generator auf einem FreeHoster-Account hatte vor Jahren das Zeitliche gesegnet. 
