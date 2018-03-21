@@ -8,9 +8,10 @@ Gott sei Dank gab es im KDG-Forum und anderswo bereits Ersatz und auch der Algor
 Prüfziffer ist mittlerweile Allgemeingut.
 
 Mir persönlich gefielen die erhältlichen Lösungen nicht. Denn alle Lösungen erfordern entweder zwingend einen 
-Webserver odr ich muss Programme deren Quellcode und Absichten ich nicht kenne, auf meinen Rechner laden.
+Webserver oder man muss Programme, deren Quellcode und Absichten man nicht kennt, auf den eigenen Rechner laden.
 
-Daher habe ich mal wieder einen programmiert, ich brauchte mal wieder selber eine Seriennnummer.
+Daher habe ich mal wieder einen Generator programmiert, ich brauchte mal wieder selber eine Seriennnummer.
+Diesmal ist er auch optisch ansprechender, der Spielteufel ritt mich ein wenig.
 
 Dieser Seriennummerngenerator ist so konzipiert, dass er (hoffentlich fast) überall funktioniert.
 Er liegt im Quelltext vor (OpenSource) und funktioniert im Browser ohne dass man zwingend einen Server benötigt.
