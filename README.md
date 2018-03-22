@@ -31,6 +31,6 @@ sollte man sich informieren.
 Die Datei existiert in 2 Varianten einer komprimierten und eine unkomprimierten.
 Die komprimierte sollte verwendet werden um Seriennummern zu generieren.
 Die unkomprimierte sollte verwendet werden, wenn der Code modifiziert werden soll (da sind auch Kommentare drin).
-Nach erfolgter Modifikation komprimiert man dan wieder.
+Nach erfolgter Modifikation komprimiert man dann wieder.
 Zum Komprimieren kann man https://htmlcompressor.com/compressor/ verwenden, da kann man den Code auch gleich validieren.
 
