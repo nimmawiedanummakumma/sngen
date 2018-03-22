@@ -1,7 +1,7 @@
 # sngen
 Neuer Seriennummer-Generator für KDG
 
-Beinahe 10 Jahre nachdem ich mit meinem ersten Generator viel Zuspruch fand, habe ich mich wieder mit dem Thema 
+Gut 10 Jahre nachdem ich mit meinem ersten Generator viel Zuspruch fand, habe ich mich wieder mit dem Thema 
 befasst, denn mein Generator auf einem FreeHoster-Account hatte vor Jahren das Zeitliche gesegnet. 
 
 Gott sei Dank gab es im KDG-Forum und anderswo bereits Ersatz und auch der Algorithmus zum Erzeugen der
@@ -18,13 +18,13 @@ Er liegt im Quelltext vor (OpenSource) und funktioniert im Browser ohne dass man
 Ich habe Wert darauf gelegt, dass sämtliche Daten und Programme direkt in der HTML-Datei integriert sind.
 
 Man braucht deswegen nicht einmal einen Webserver, damit der Generator funktioniert, er läuft komplett im Browser. 
-Daher genügt es wenn man sie auf dem eigenen Rechner ablegt und mit dem Browser die Datei öffnet.
+Daher genügt es, wenn man ihn auf dem eigenen Rechner ablegt und mit dem Browser die Datei öffnet.
 
 Natürlich kann man die Datei auf beliebigen Server ablegen und dann aufrufen, auch dann funktioniert sie ebenso.
 
 Bitte macht Kopien von der HTML-Datei und legt sie ab, falls dieser Account mal geschlossen wird.
 Ich selbst werde dieses Projekt übrigens nicht groß weiter verfolgen.
-ür 
+
 Der Generator wird im KDG-Forum beschrieben ( https://www.kdgforum.de/viewtopic.php?f=5&t=3140&start=850 ) dort 
 sollte man sich informieren.
 
