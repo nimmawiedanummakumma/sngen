@@ -88,3 +88,4 @@ Hierzu wird der Base64-code in einer einigen Zeile verlangt, das lässt sich mit
 
 ```
 
+Kleines Gimmick am Rande: Wenn man auf der Generatorseite das Icon doppleklickt,erscheint der SVG-Quellcode in einer Popup-Message. Sollte also die Datei sn.svg verloren gehen, kann man sie so wieder erstellen.
