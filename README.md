@@ -1,9 +1,8 @@
 # sngen
-Neuer Seriennummer-Generator für KDG
-
-Hier könnt Ihr Nummern generieren: https://nimmawiedanummakumma.github.io/sngen/
+Neuer Seriennummer-Generator für KDG: https://nimmawiedanummakumma.github.io/sngen/
 
 Infos zum Programm:
+
 Gut 11 Jahre nachdem ich mit meinem ersten Generator viel Zuspruch fand, habe ich mich wieder mit dem Thema 
 befasst, denn mein Generator auf einem FreeHoster-Account hatte vor Jahren das Zeitliche gesegnet. 
 
