@@ -40,13 +40,9 @@ Ich selbst werde dieses Projekt übrigens nicht groß weiter verfolgen.
 Deswegen kann auch jeder Github-Benutzer den Code ändern. Ich hoffe mal,
 dass das nicht ins Chaos führt.
 
-### Änderungen
+## Änderungen
 Bei Änderungen daran denken, die komprimierte Variante (siehe unten) auch in den Branch gh-pages als index.html zu übernehmen, denn von da kommt die Generatorseite https://nimmawiedanummakumma.github.io/sngen/
 . 
-
-### Zusätzliche Informationen
-Generatoren werden im KDG-Forum beschrieben ( https://www.kdgforum.de/viewtopic.php?f=5&t=3140&start=850 ) dort 
-sollte man sich informieren.
 
 ### Varianten
 Die Datei existiert in 2 Varianten einer komprimierten und eine unkomprimierten.
@@ -100,3 +96,8 @@ Die angegebene Telefonnummer ist natürlich Unfug, sie wurde nur wegen der optis
 `NIEMAND DA`
 
 Die verwendete Ländervorwahl ist nicht vergeben, so dass ein Anrufversuch auch keine Kosten verursacht.
+
+## Zusätzliche Informationen
+Generatoren werden im KDG-Forum beschrieben ( https://www.kdgforum.de/viewtopic.php?f=5&t=3140&start=850 ) dort 
+sollte man sich informieren.
+
