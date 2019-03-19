@@ -88,4 +88,11 @@ Hierzu wird der Base64-code in einer einigen Zeile verlangt, das lässt sich mit
 
 ```
 
-Kleines Gimmick am Rande: Wenn man auf der Generatorseite das Icon doppleklickt,erscheint der SVG-Quellcode in einer Popup-Message. Sollte also die Datei sn.svg verloren gehen, kann man sie so wieder erstellen.
+Kleines Gimmick am Rande: Wenn man auf der Generatorseite das Icon doppelklickt,erscheint der SVG-Quellcode in einer Popup-Message. Sollte also die Datei sn.svg verloren gehen, kann man sie so wieder erstellen.
+
+## Info zur verwendeten Telefonnummer
+Die angegebene Telefonnummer ist natürlich Unfug, sie wurde nur wegen der optischen Ähnlichkeit zu gewissen Seiten eingebaut. Sie ist wie eine Vanitynummer aufgebaut.
+
+`6436263 32` steht also für
+
+`Niemand da`
