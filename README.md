@@ -29,7 +29,7 @@ Ich selbst werde dieses Projekt übrigens nicht groß weiter verfolgen.
 Deswegen kann auch jeder Github-Benutzer den Code ändern. Ich hoffe mal,
 dass das nicht ins Chaos führt.
 
-Bei Änderungen daran denken, die komprimierte Variante auch in den Branch gh-pages als index.html zu übernehmen, denn von da kommt die Generatorseite https://nimmawiedanummakumma.github.io/sngen/
+Bei Änderungen daran denken, die komprimierte Variante (siehe unten) auch in den Branch gh-pages als index.html zu übernehmen, denn von da kommt die Generatorseite https://nimmawiedanummakumma.github.io/sngen/
 . 
 
 Generatoren werden im KDG-Forum beschrieben ( https://www.kdgforum.de/viewtopic.php?f=5&t=3140&start=850 ) dort 
