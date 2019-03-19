@@ -40,10 +40,6 @@ Ich selbst werde dieses Projekt übrigens nicht groß weiter verfolgen.
 Deswegen kann auch jeder Github-Benutzer den Code ändern. Ich hoffe mal,
 dass das nicht ins Chaos führt.
 
-## Änderungen
-Bei Änderungen daran denken, die komprimierte Variante (siehe unten) auch in den Branch gh-pages als index.html zu übernehmen, denn von da kommt die Generatorseite https://nimmawiedanummakumma.github.io/sngen/
-. 
-
 ### Varianten
 Die Datei existiert in 2 Varianten einer komprimierten und eine unkomprimierten.
 Die komprimierte sollte verwendet werden um Seriennummern zu generieren.
@@ -55,14 +51,14 @@ Wichtig ist, dass man vor dem Hochladen den Zeichensatz auf UTF-8 stellt, sonst 
 So komprimiert man
   1. Mit dem Browser die Seite https://htmlcompressor.com/compressor/
   2. Wichtig: den Zeichensatz auf utf-8 stellen
-  3. Die HTML-Datei hochladen und
+  3. Die HTML-Datei index-uncompressed-source.html hochladen und
   4. anschließend komprimieren
   5. Die Gelegenheit nutzen und den HTML-Code validieren
-  6. Den komprimierten Code herunterladen und in github als sn-uncompressed-source.html ablegen, ggf, auch im Branch gh-pages als index.html
+  6. Den komprimierten Code herunterladen und als index.html ablegen
 
 ### Ein paar Infos zum Icon
 
-Das Icon liegt in der Datei sn.svg.b64 base64-kodiert im Quellcode vor, 
+Das Icon liegt in der Datei icon.svg.b64 base64-kodiert im Quellcode vor, 
 genau so wie es in den 
 HTML-code integriert ist. Der Grund für die Kodierung ist, dass es nur 
 auf diese Art so in den Code integriert werden konnte, 
@@ -70,9 +66,9 @@ dass es sowohl als favicon (das kleine Icon in der Adressleiste des Browsers)
 als auch innerhalb der Seite verwendet werden kann.
 
 Soll das Icon Änderungen erfahren, geht man so vor:
-1. Dekodieren z. B. mit `openssl base64 -d < sn.svg.b64 > sn.svg
-2. Bearbeiten von sn.svg (mit einem Vectorgrafikprogramm oder einem Text-Editor)
-3. Kodieren z. B. mit `openssl base64 < sn.svg > sn.svg.b64
+1. Dekodieren z. B. mit `openssl base64 -d < icon.svg.b64 > icon.svg
+2. Bearbeiten von icon.svg (mit einem Vectorgrafikprogramm oder einem Text-Editor)
+3. Kodieren z. B. mit `openssl base64 < icon.svg > icon.svg.b64
 4. Im unkomprimierten HTML-Quellcode das Icon ersetzen (function svgiconb64)
 Hierzu wird der Base64-code in einer einigen Zeile verlangt, das lässt sich mit
 `awk '{printf "%s",$0}' sn.ico.b64` einfach erzeugen.
@@ -86,7 +82,7 @@ Hierzu wird der Base64-code in einer einigen Zeile verlangt, das lässt sich mit
 
 ```
 
-Kleines Gimmick am Rande: Wenn man auf der Generatorseite das Icon doppelklickt,erscheint der SVG-Quellcode in einer Popup-Message. Sollte also die Datei sn.svg verloren gehen, kann man sie so wieder erstellen.
+Kleines Gimmick am Rande: Wenn man auf der Generatorseite das Icon doppelklickt,erscheint der SVG-Quellcode in einer Popup-Message. Sollte also die Datei icon.svg verloren gehen, kann man sie so wieder erstellen.
 
 ## Info zur verwendeten Telefonnummer
 Die angegebene Telefonnummer ist natürlich Unfug, sie wurde nur wegen der optischen Ähnlichkeit zu gewissen Seiten eingebaut. Sie ist wie eine Vanitynummer aufgebaut.
