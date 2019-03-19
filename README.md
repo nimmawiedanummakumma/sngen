@@ -95,4 +95,6 @@ Die angegebene Telefonnummer ist natürlich Unfug, sie wurde nur wegen der optis
 
 `6436263 32` steht also für
 
-`Niemand da`
+`NIEMAND DA`
+
+Die verwendete Ländervorwahl ist nicht vergeben, so dass ein Anrufversuch auch keine Kosten verursacht.
