@@ -27,6 +27,8 @@ Natürlich kann man die Datei auf beliebigen Server ablegen und dann aufrufen, a
 
 Bitte macht Kopien von der HTML-Datei und legt sie ab, falls dieser Account mal geschlossen wird.
 Ich selbst werde dieses Projekt übrigens nicht groß weiter verfolgen.
+Deswegen kann auch jeder Github-Benutzer den Code ändern. Ich hoffe mal,
+dass das nicht ins Chaos führt.
 
 Der Generator wird im KDG-Forum beschrieben ( https://www.kdgforum.de/viewtopic.php?f=5&t=3140&start=850 ) dort 
 sollte man sich informieren.
