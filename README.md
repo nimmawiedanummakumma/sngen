@@ -29,7 +29,10 @@ Ich selbst werde dieses Projekt übrigens nicht groß weiter verfolgen.
 Deswegen kann auch jeder Github-Benutzer den Code ändern. Ich hoffe mal,
 dass das nicht ins Chaos führt.
 
-Der Generator wird im KDG-Forum beschrieben ( https://www.kdgforum.de/viewtopic.php?f=5&t=3140&start=850 ) dort 
+Bei Änderungen daran denken, die kompirmierte Variante auch in den Branch gh-pages als index.html zu übernehmen, denn von da kommt die Generatorseite https://nimmawiedanummakumma.github.io/sngen/
+. 
+
+Generatoren werden im KDG-Forum beschrieben ( https://www.kdgforum.de/viewtopic.php?f=5&t=3140&start=850 ) dort 
 sollte man sich informieren.
 
 Die Datei existiert in 2 Varianten einer komprimierten und eine unkomprimierten.
