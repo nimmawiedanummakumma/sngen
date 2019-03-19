@@ -60,7 +60,7 @@ So komprimiert man
   3. Die HTML-Datei hochladen und
   4. anschließend komprimieren
   5. Die Gelegenheit nutzen und den HTML-Code validieren
-  6. Den komprimierten Code herunterladen und in github als sn-uncomprssed.html ablegen, ggf, auch im Branch gh-pages als index.html
+  6. Den komprimierten Code herunterladen und in github als sn-uncompressed-source.html ablegen, ggf, auch im Branch gh-pages als index.html
 
 ### Ein paar Infos zum Icon
 
