@@ -20,7 +20,7 @@ Diesmal ist er auch optisch ansprechender, der Spielteufel ritt mich ein wenig.
 
 Er sammelt und überträgt keinerlei Daten und läuft vollkommen lokal. Wenn man die HTML-Seite auf den eignenen Rechner herunterlädt und lokal mit dem Browser öffnet, funktioniert der Generator vollkommen offline.
 
-## Konzeption
+### Konzeption
 Dieser Seriennummerngenerator ist so konzipiert, dass er (hoffentlich fast) überall funktioniert.
 Er liegt im Quelltext vor (OpenSource) und funktioniert im Browser ohne dass man zwingend einen Server benötigt.
 Ich habe Wert darauf gelegt, dass sämtliche Daten und Programme direkt in der HTML-Datei integriert sind.
@@ -30,23 +30,23 @@ Daher genügt es, wenn man ihn auf dem eigenen Rechner ablegt und mit dem Browse
 
 Natürlich kann man die Datei auf beliebigen Server ablegen und dann aufrufen, auch dann funktioniert sie ebenso.
 
-## Kopien erwünscht
+### Kopien erwünscht
 Bitte macht Kopien von der HTML-Datei und legt sie ab, falls dieser Account mal geschlossen wird.
 
-## Weitere Beteilung des Urhebers
+### Weitere Beteilung des Urhebers
 Ich selbst werde dieses Projekt übrigens nicht groß weiter verfolgen.
 Deswegen kann auch jeder Github-Benutzer den Code ändern. Ich hoffe mal,
 dass das nicht ins Chaos führt.
 
-## Änderungen
+### Änderungen
 Bei Änderungen daran denken, die komprimierte Variante (siehe unten) auch in den Branch gh-pages als index.html zu übernehmen, denn von da kommt die Generatorseite https://nimmawiedanummakumma.github.io/sngen/
 . 
 
-# Zusätzliche Informationen
+### Zusätzliche Informationen
 Generatoren werden im KDG-Forum beschrieben ( https://www.kdgforum.de/viewtopic.php?f=5&t=3140&start=850 ) dort 
 sollte man sich informieren.
 
-# Varianten
+### Varianten
 Die Datei existiert in 2 Varianten einer komprimierten und eine unkomprimierten.
 Die komprimierte sollte verwendet werden um Seriennummern zu generieren.
 Die unkomprimierte sollte verwendet werden, wenn der Code modifiziert werden soll (da sind auch Kommentare drin).
