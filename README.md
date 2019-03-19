@@ -73,7 +73,7 @@ als auch innerhalb der Seite verwendet werden kann.
 
 Soll das Icon Änderungen erfahren, geht man so vor:
 1. Dekodieren z. B. mit `openssl base64 -d < sn.svg.b64 > sn.svg
-2. Bearbeiten von sn.svg (mit einem Vectorgrakfik programm oder einem Text-Editor)
+2. Bearbeiten von sn.svg (mit einem Vectorgrafikprogramm oder einem Text-Editor)
 3. Kodieren z. B. mit `openssl base64 < sn.svg > sn.svg.b64
 4. Im unkomprimierten HTML-Quellcode das Icon ersetzen (function svgiconb64)
 Hierzu wird der Base64-code in einer einigen Zeile verlangt, das lässt sich mit
