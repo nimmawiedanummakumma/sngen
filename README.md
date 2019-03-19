@@ -64,12 +64,12 @@ So komprimiert man
 
 ### Ein paar Infos zum Icon
 
-Das Icon liegt als sn.svg.b64 base64-kodiert im Quellcode vor, 
-genauso wie es in den 
+Das Icon liegt in der Datei sn.svg.b64 base64-kodiert im Quellcode vor, 
+genau so wie es in den 
 HTML-code integriert ist. Der Grund für die Kodierung ist, dass es nur 
 auf diese Art so in den Code integriert werden konnte, 
 dass es sowohl als favicon (das kleine Icon in der Adressleiste des Browsers) 
-als auch innerhalb der Seite verwendet wird.
+als auch innerhalb der Seite verwendet werden kann.
 
 Soll das Icon Änderungen erfahren, geht man so vor:
 1. Dekodieren z. B. mit `openssl base64 -d < sn.svg.b64 > sn.svg
