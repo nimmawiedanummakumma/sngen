@@ -14,14 +14,14 @@
 <br>
 <br>
 <h1 class=center>Sie haben JavaScript deaktiviert, dann funktioniert der Generator nicht!</h1>
-<h2 class=center>Sie mÃ¼ssen JavaScript aktivieren, damit sie den Generator nutzen kÃ¶nnen.</h2>
+<h2 class=center>Sie müssen JavaScript aktivieren, damit sie den Generator nutzen können.</h2>
 <p>
 Die Seriennummer wird auf Ihrem Rechner errechnet bzw. erzeugt.
-Dazu benÃ¶tigt diese Seite JavaScript.<br>
+Dazu benötigt diese Seite JavaScript.<br>
 Der Vorteil ist, dass der Generator ohne Server funktioniert.<br>
 Er funktioniert also auch, wenn Sie diese Seite bzw. den Quelltext
-in einer lokalen Datei abspeichern und mit dem Browser die Datei Ã¶ffnen.<br>
-Dies erleichert es auch, ihn auf beliebigen Servern zur VerfÃ¼gung zu
+in einer lokalen Datei abspeichern und mit dem Browser die Datei öffnen.<br>
+Dies erleichert es auch, ihn auf beliebigen Servern zur Verfügung zu
 stellen, denn es werden keinerlei Anforderungen an den Server gestellt.
 </p>
 </noscript>
@@ -39,11 +39,11 @@ Produktberatung & Bestellung: <span class=fett>0080 - 643 626 332</span>
 <div id=inhalt>
 <div class=vollbreit>
 <h1>Seriennummern-Generator</h1>
-<h2>fÃ¼r Vodafone Kabel Deutschland</h2>
-<h3>1. GerÃ¤t auswÃ¤hlen</h3>
+<h2>für Vodafone Kabel Deutschland</h2>
+<h3>1. Gerät auswählen</h3>
 </div>
 <div class=spalte1>
-<span class="fett unterstrichen">Entweder</span> CI+ Modul <br>bzw. Reveiver wÃ¤hlen<br>
+<span class="fett unterstrichen">Entweder</span> CI+ Modul <br>bzw. Reveiver wählen<br>
 <select id=snstart onchange=snstartchg()>
 <option value=39015>Smart CI+ (NDS) - 39015</option>
 <option value=39010>Smart CI+ (NDS) - 39010</option>
@@ -56,19 +56,19 @@ Produktberatung & Bestellung: <span class=fett>0080 - 643 626 332</span>
 </div>
 <div class=spalte2>
 <span class="fett unterstrichen">oder</span>
-eigenen, fÃ¼nfstelligen,<br>
-numerischen GerÃ¤tecode eingeben<br>
+eigenen, fünfstelligen,<br>
+numerischen Gerätecode eingeben<br>
 <input type=number id=ownrec size=10 min=10000 max=99999 onchange=ownrecchg()>
 </div>
 <div class=vollbreit>
-<h3>2. GerÃ¤tenummer wÃ¤hlen</h3>
+<h3>2. Gerätenummer wählen</h3>
 </div>
 <div class=spalte1>
-<span class="fett unterstrichen">Entweder</span> Nummer generieren<br><span class=tiny>Anzahl der Stellen auswÃ¤hlen (zwischen 3 und 7)</span><br>
+<span class="fett unterstrichen">Entweder</span> Nummer generieren<br><span class=tiny>Anzahl der Stellen auswählen (zwischen 3 und 7)</span><br>
 <input type=number id=digits value=5 size=1 min=3 max=7 onchange=digitschg()>
 </div>
 <div class=spalte2>
-<span class="fett unterstrichen">oder</span> selbst eine Nummer wÃ¤hlen<br><span class=tiny>wobei maximal sieben Stellen mÃ¶glich sind</span><br>
+<span class="fett unterstrichen">oder</span> selbst eine Nummer wählen<br><span class=tiny>wobei maximal sieben Stellen möglich sind</span><br>
 <input type=number id=ownsn value size=10 onchange=ownserchg()><br>
 </div>
 <div class=vollbreit>
@@ -76,11 +76,11 @@ numerischen GerÃ¤tecode eingeben<br>
 <button type=button id=los>Seriennummer erzeugen</button><br>
 </div>
 <div class="vollbreit center">
-<span class=tiny><br>Seriennummer bestehend aus <span class=receiver>Receiver-/Modulkennung</span>, <span class=serial>GerÃ¤tenummer</span> und <span class=checksum>PrÃ¼fsumme</span>.<br></span>
+<span class=tiny><br>Seriennummer bestehend aus <span class=receiver>Receiver-/Modulkennung</span>, <span class=serial>Gerätenummer</span> und <span class=checksum>Prüfsumme</span>.<br></span>
 <div id=result>
 <br>
 </div><br>
-<small>Alle Angaben ohne GewÃ¤hr.</small>
+<small>Alle Angaben ohne Gewähr.</small>
 </div>
 </div>
 <div class=vollbreit>
@@ -93,11 +93,11 @@ numerischen GerÃ¤tecode eingeben<br>
 <a href=https://github.com/nimmawiedanummakumma/sngen class=spacing target=_blank>Generator-Quellcode auf Github</a>
 </div>
 </div>
-<script>function ownserchg(){var ownsn=document.getElementById('ownsn');if(ownsn.value.length>7){alert("Maximal 7 Stellen mÃ¶glich - Nummer wird gekÃ¼rzt");ownsn.value=ownsn.value.substr(0,7);}else if(isNaN(ownsn.value)){alert("Seriennumer muss eine max. 7-stellige Zahl sein")
+<script>function ownserchg(){var ownsn=document.getElementById('ownsn');if(ownsn.value.length>7){alert("Maximal 7 Stellen möglich - Nummer wird gekürzt");ownsn.value=ownsn.value.substr(0,7);}else if(isNaN(ownsn.value)){alert("Seriennumer muss eine max. 7-stellige Zahl sein")
 ownsn.value=0;}else{if(ownsn.value<0){alert("Seriennummer muss positiv oder leer sein.");ownsn.value='';}else{serial();return(true);}}
 return(false);}
 function digitschg(){var DigitsInp=document.getElementById('digits');var digits=DigitsInp.value;if((digits>7)||(digits<3)){DigitsInp.value=5;alert("Die Anzahl der Stellen muss zwischen 3 und 7 liegen");return(false);}else{serial();return(true);}}
-function ownrecchg(){var ownrec=document.getElementById('ownrec');if(ownrec.value.length!=5){alert("Receivercode muss fÃ¼nfstellig sein.");}else if(isNaN(ownrec.value)){alert("Receivercode muss eine fÃ¼nfstellige Zahl sein")}else{serial();return(true);}
+function ownrecchg(){var ownrec=document.getElementById('ownrec');if(ownrec.value.length!=5){alert("Receivercode muss fünfstellig sein.");}else if(isNaN(ownrec.value)){alert("Receivercode muss eine fünfstellige Zahl sein")}else{serial();return(true);}
 ownrec.value=snstart.value;return(false);}
 function snstartchg(){ownrec.value=snstart.value;serial();}
 function showsvgb64(){alert("SVG Quellcode des Icon in base64-codiert:\n"+svgiconb64());}
@@ -109,7 +109,7 @@ if(a!=64){t=t+String.fromCharCode(i)}}
 t=Base64._utf8_decode(t);return t},_utf8_encode:function(e){e=e.replace(/\r\n/g,"\n");var t="";for(var n=0;n<e.length;n++){var r=e.charCodeAt(n);if(r<128){t+=String.fromCharCode(r)}else if(r>127&&r<2048){t+=String.fromCharCode(r>>6|192);t+=String.fromCharCode(r&63|128)}else{t+=String.fromCharCode(r>>12|224);t+=String.fromCharCode(r>>6&63|128);t+=String.fromCharCode(r&63|128)}}
 return t},_utf8_decode:function(e){var t="";var n=0;var r=c1=c2=0;while(n<e.length){r=e.charCodeAt(n);if(r<128){t+=String.fromCharCode(r);n++}else if(r>191&&r<224){c2=e.charCodeAt(n+1);t+=String.fromCharCode((r&31)<<6|c2&63);n+=2}else{c2=e.charCodeAt(n+1);c3=e.charCodeAt(n+2);t+=String.fromCharCode((r&15)<<12|(c2&63)<<6|c3&63);n+=3}}
 return t}}
-alert("SVG Quellcode des Icon (base64-codiert verwendet fÃ¼r Icon und favicon):\n"+Base64.decode(svgiconb64()));}
+alert("SVG Quellcode des Icon (base64-codiert verwendet für Icon und favicon):\n"+Base64.decode(svgiconb64()));}
 function serial(){var Eingabe=document.getElementById('Eingabe');var Ausgabe=document.getElementById('result');var serialNum;var startval;var zeros="0000000000";var sn1,sn2,pp,pps;var iconlink=document.getElementById('favicon');if(ownrec.value==0){startval=snstart.value;}else{startval=ownrec.value;}
 if(ownsn.value==0){var digits=document.getElementById('digits').value;serialNum=Math.floor(Math.random()*(10**digits)).toString();}else{serialNum=ownsn.value;}
 serialNum=startval+zeros.substr(0,12-serialNum.length-5)+serialNum;sn1=parseInt(serialNum/100);sn2=serialNum-(sn1*100)
