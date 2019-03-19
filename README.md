@@ -54,15 +54,15 @@ Nach erfolgter Modifikation komprimiert man dann wieder.
 Zum Komprimieren kann man https://htmlcompressor.com/compressor/ verwenden, da kann man den Code auch gleich validieren.
 Wichtig ist, dass man vor dem Hochladen den Zeichensatz auf UTF-8 stellt, sonst werden die Umlaute ruiniert.
 
-So kompxpirimiert man
+So komprimiert man
   1. Mit dem Browser die Seite https://htmlcompressor.com/compressor/
   2. Wichtig: den Zeichensatz auf utf-8 stellen
   3. Die HTML-Datei hochladen und
   4. anschließend komprimieren
-  5. Die Gelehenheit nutzen und den HTML-Code validieren
+  5. Die Gelegenheit nutzen und den HTML-Code validieren
   6. Den komprimierten Code herunterladen und in github als sn-uncomprssed.html ablegen, ggf, auch im Branch gh-pages als index.html
 
-= Ein paar Infos zum Icon
+### Ein paar Infos zum Icon
 
 Das Icon liegt als sn.svg.b64 base64-kodiert im Quellcode vor, 
 genauso wie es in den 
