@@ -13,10 +13,12 @@ Prüfziffer ist mittlerweile Allgemeingut.
 
 ## Praktische und ästethische Erwägungen
 Mir persönlich gefielen die erhältlichen Lösungen nicht. Denn alle Lösungen erfordern entweder zwingend einen 
-Webserver oder man muss Programme, deren Quellcode und Absichten man nicht kennt, auf den eigenen Rechner laden.
+Webserver oder man muss binäre Programme, deren Quellcode und Absichten man nicht kennt, auf den eigenen Rechner laden.
 
 Daher habe ich mal wieder einen Generator programmiert, ich brauchte mal wieder selber eine Seriennnummer.
 Diesmal ist er auch optisch ansprechender, der Spielteufel ritt mich ein wenig.
+
+Er sammelt und überträgt keinerlei Daten und läuft vollkommen lokal. Wenn man die HTML-Seite auf den eignenen Rechner herunterlädt und lokal mit dem Browser öffnet, funktioniert der Generator vollkommen offline.
 
 ## Konzeption
 Dieser Seriennummerngenerator ist so konzipiert, dass er (hoffentlich fast) überall funktioniert.
